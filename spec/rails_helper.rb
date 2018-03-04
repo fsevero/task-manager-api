@@ -30,7 +30,7 @@ ActiveRecord::Migration.maintain_test_schema!
 RSpec.configure do |config|
   config.before(:suite) do |config|
     DatabaseCleaner.strategy = :transaction
-    DatabaseCleaner.clean_with(:truncattion)
+    DatabaseCleaner.clean_with(:truncation)
   end
 
   config.around(:each) do |example|

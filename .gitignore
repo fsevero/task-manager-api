@@ -49,3 +49,6 @@ bower.json
 
 
 # End of https://www.gitignore.io/api/rails
+
+# Log da máquina virtual
+ubuntu-xenial-16.04-cloudimg-console.log

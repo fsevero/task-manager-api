@@ -54,3 +54,6 @@ gem 'devise'
 gem 'active_model_serializers'
 
 gem 'ransack'
+
+gem 'omniauth'
+gem 'devise_token_auth'

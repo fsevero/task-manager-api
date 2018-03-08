@@ -45,7 +45,7 @@ RSpec.describe 'Sessions API', type: :request do
     let(:auth_token) { user.auth_token }
 
     before do
-      delete "/sessions/#{auth_token}", params: {}.to_json, headers: {}
+      delete "/sessions/#{auth_token}", params: {}.to_json, headers: headers
     end
 
     it 'returns status code 204' do
